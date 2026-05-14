@@ -1,0 +1,89 @@
+{
+  "Meta": {
+    "title": "Apion Shop",
+    "description": "Premium digitale producten en tooling van het Apion team."
+  },
+  "Nav": {
+    "home": "Home",
+    "products": "Producten",
+    "cart": "Winkelwagen",
+    "orders": "Mijn bestellingen",
+    "signIn": "Inloggen",
+    "signOut": "Uitloggen"
+  },
+  "Hero": {
+    "eyebrow": "Door Apion",
+    "title": "Digitale tools die werken.",
+    "subtitle": "Handgemaakte assets, templates en licenties voor makers met oog voor detail.",
+    "cta": "Bekijk de catalogus"
+  },
+  "Home": { "featured": "Uitgelichte producten", "viewAll": "Alles bekijken" },
+  "Products": {
+    "title": "Alle producten",
+    "empty": "Nog geen producten — kom snel terug.",
+    "category": "Categorie",
+    "allCategories": "Alle categorieën"
+  },
+  "Product": {
+    "addToCart": "In winkelwagen",
+    "adding": "Toevoegen…",
+    "added": "Toegevoegd",
+    "instantDelivery": "Direct digitale levering",
+    "related": "Misschien ook iets voor jou"
+  },
+  "Cart": {
+    "title": "Jouw winkelwagen",
+    "empty": "Je winkelwagen is leeg.",
+    "browse": "Bekijk producten",
+    "subtotal": "Subtotaal",
+    "checkout": "Afrekenen",
+    "remove": "Verwijderen",
+    "quantity": "Aantal"
+  },
+  "Checkout": {
+    "title": "Afrekenen",
+    "loading": "Afrekenen voorbereiden…",
+    "pay": "Betaal {amount}",
+    "paying": "Doorsturen…",
+    "failed": "Betaling mislukt",
+    "back": "Terug naar winkelwagen",
+    "total": "Totaal",
+    "emptyCart": "Je winkelwagen is leeg.",
+    "browse": "Bekijk producten"
+  },
+  "Confirm": {
+    "title": "Betaling geslaagd",
+    "subtitle": "We hebben je bon gemaild. Je downloads staan in je account.",
+    "viewOrders": "Bekijk mijn bestellingen",
+    "continue": "Verder winkelen"
+  },
+  "Orders": {
+    "title": "Mijn bestellingen",
+    "empty": "Je hebt nog geen bestellingen geplaatst.",
+    "orderNumber": "Bestelling",
+    "status": "Status",
+    "total": "Totaal",
+    "date": "Datum"
+  },
+  "Auth": {
+    "signInTitle": "Inloggen",
+    "signInSubtitle": "Gebruik je e-mail om een magic link te ontvangen.",
+    "signUpTitle": "Account aanmaken",
+    "signUpSubtitle": "We sturen je een magic link. Geen wachtwoord nodig.",
+    "name": "Naam",
+    "email": "E-mail",
+    "send": "Verstuur magic link",
+    "signUp": "Account aanmaken",
+    "sent": "Check je e-mail — we hebben je een inloglink gestuurd.",
+    "noAccount": "Nog geen account?",
+    "haveAccount": "Heb je al een account?",
+    "signInLink": "Inloggen",
+    "signUpLink": "Aanmelden"
+  },
+  "Footer": {
+    "tagline": "Gemaakt door het Apion team.",
+    "terms": "Voorwaarden",
+    "privacy": "Privacy",
+    "contact": "Contact"
+  }
+}

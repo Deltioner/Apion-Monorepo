@@ -1,0 +1,374 @@
+{
+  "Meta": {
+    "title": "Apion — Technologische oplossingen voor groeiende bedrijven",
+    "description": "Apion is een technologiebedrijf gevestigd in Amsterdam. Wij bouwen websites, SaaS-applicaties en lossen technische problemen op voor kleine en groeiende bedrijven."
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "Over ons",
+    "services": "Diensten",
+    "projects": "Projecten",
+    "contact": "Contact",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten",
+    "language": "Taal"
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Vanuit Amsterdam, voor de wereld",
+      "title": "Technologische oplossingen voor groeiende bedrijven",
+      "subtitle": "Wij bouwen moderne websites, leveren SaaS-applicaties en lossen de technische problemen op die kleine bedrijven tegenhouden.",
+      "ctaPrimary": "Start een project",
+      "ctaSecondary": "Bekijk ons werk"
+    },
+    "services": {
+      "eyebrow": "Wat we doen",
+      "title": "Diensten op maat van uw bedrijf",
+      "subtitle": "Van een snelle nieuwe website tot een op maat gemaakt SaaS-platform — wij dekken de volledige stack zodat u zich kunt richten op groei.",
+      "viewAll": "Bekijk alle diensten"
+    },
+    "projects": {
+      "eyebrow": "Geselecteerd werk",
+      "title": "Recente projecten",
+      "subtitle": "Een blik op recente samenwerkingen met onze klanten.",
+      "viewAll": "Bekijk alle projecten"
+    },
+    "cta": {
+      "title": "Laten we samen iets bouwen",
+      "subtitle": "Vertel ons over uw bedrijf en het probleem dat u wilt oplossen. Wij reageren binnen één werkdag.",
+      "button": "Neem contact op"
+    }
+  },
+  "Services": {
+    "items": {
+      "web": {
+        "title": "Webdesign & ontwikkeling",
+        "description": "Moderne, snelle en toegankelijke websites, gebouwd met de nieuwste technologie. Perfect voor kleine bedrijven die professioneel willen ogen."
+      },
+      "saas": {
+        "title": "Op maat gemaakte SaaS-applicaties",
+        "description": "Van idee tot productie. Wij ontwerpen, bouwen en lanceren SaaS-producten afgestemd op uw bedrijfsprocessen."
+      },
+      "maintenance": {
+        "title": "Onderhoud & ondersteuning",
+        "description": "Houd uw website soepel draaiend. Updates, bugfixes, monitoring en doorlopende verbeteringen."
+      },
+      "seo": {
+        "title": "SEO & performance",
+        "description": "Hoger ranken en sneller laden. Wij optimaliseren de structuur, snelheid en zichtbaarheid van uw website."
+      },
+      "database": {
+        "title": "Database-optimalisatie",
+        "description": "Trage queries? Opgeblazen schema? Wij herstructureren en tunen uw database zodat uw app snel blijft naarmate u groeit."
+      },
+      "consulting": {
+        "title": "Technologie-advies",
+        "description": "Niet zeker welke stack te kiezen, of hoe te schalen? Krijg duidelijk, praktisch advies van senior engineers."
+      }
+    }
+  },
+  "Projects": {
+    "industry": "Branche",
+    "year": "Jaar",
+    "stack": "Stack",
+    "results": "Resultaten"
+  },
+  "About": {
+    "hero": {
+      "eyebrow": "Over Apion",
+      "title": "Een klein techteam met een grote gereedschapskist",
+      "subtitle": "Gevestigd in Amsterdam helpen we kleine en groeiende bedrijven om betere technologie te leveren — zonder de overhead van een groot bureau."
+    },
+    "mission": {
+      "title": "Onze missie",
+      "body": "Wij geloven dat goede technologie niet alleen voor grote ondernemingen is. We bouwen moderne, goed ontworpen websites en SaaS-applicaties voor bedrijven die vaak buiten beeld blijven bij traditionele bureaus."
+    },
+    "approach": {
+      "title": "Hoe we werken",
+      "items": {
+        "listen": {
+          "title": "Eerst luisteren",
+          "body": "Elk project begint met begrip van uw bedrijf en het probleem dat u wilt oplossen — niet met een technologie-pitch."
+        },
+        "ship": {
+          "title": "Snel leveren",
+          "body": "Moderne tools en ervaren engineers zorgen ervoor dat we in weken tot een werkend product komen, niet in kwartalen."
+        },
+        "stay": {
+          "title": "Dichtbij blijven",
+          "body": "We verdwijnen niet na de lancering. Onderhoud, performance en SEO zijn een doorlopende samenwerking."
+        }
+      }
+    },
+    "hq": {
+      "title": "Gevestigd in Amsterdam, wereldwijd actief",
+      "body": "Ons hoofdkantoor is in Amsterdam, maar we werken samen met klanten in heel Europa, het Midden-Oosten en daarbuiten. We leveren in het Engels, Nederlands, Oekraïens en Arabisch."
+    }
+  },
+  "ServicesPage": {
+    "hero": {
+      "eyebrow": "Diensten",
+      "title": "Alles wat u nodig heeft om te lanceren en te groeien",
+      "subtitle": "Van uw eerste website tot het schalen van een SaaS — wij regelen het werk, u richt zich op de business."
+    }
+  },
+  "ProjectsPage": {
+    "hero": {
+      "eyebrow": "Ons werk",
+      "title": "Projecten die we voor onze klanten hebben gebouwd",
+      "subtitle": "Echte bedrijven, echte resultaten. Een blik op wat we recent hebben opgeleverd."
+    },
+    "backToProjects": "Terug naar alle projecten",
+    "summary": "Samenvatting",
+    "challenge": "De uitdaging",
+    "outcome": "Resultaat"
+  },
+  "Contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Laten we praten over uw project",
+      "subtitle": "Vertel ons wat over uw bedrijf en wat u zou willen bouwen. Wij reageren binnen één werkdag."
+    },
+    "form": {
+      "name": "Uw naam",
+      "namePlaceholder": "Jan Jansen",
+      "email": "E-mail",
+      "emailPlaceholder": "u@bedrijf.com",
+      "company": "Bedrijf (optioneel)",
+      "companyPlaceholder": "Acme B.V.",
+      "message": "Waarmee kunnen we helpen?",
+      "messagePlaceholder": "Vertel ons over uw project, het probleem dat u wilt oplossen, of stel uw vragen.",
+      "submit": "Verstuur bericht",
+      "submitting": "Versturen...",
+      "successTitle": "Bericht verzonden",
+      "successBody": "Bedankt — we nemen binnen één werkdag contact met u op.",
+      "errorTitle": "Er ging iets mis",
+      "errorBody": "Probeer het opnieuw of mail ons rechtstreeks."
+    },
+    "info": {
+      "officeTitle": "Hoofdkantoor",
+      "officeLine": "Amsterdam, Nederland",
+      "emailLabel": "E-mail",
+      "responseLabel": "Reactietijd",
+      "responseValue": "Binnen 1 werkdag"
+    }
+  },
+  "Footer": {
+    "tagline": "Technologische oplossingen voor groeiende bedrijven.",
+    "addressLabel": "Hoofdkantoor",
+    "addressLine1": "Amsterdam, Nederland",
+    "navTitle": "Navigatie",
+    "legalTitle": "Juridisch",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "rights": "Alle rechten voorbehouden.",
+    "contactLabel": "Contact",
+    "amsterdamTime": "Het is nu {time} in Amsterdam",
+    "statusOperational": "Alle systemen operationeel"
+  },
+  "Newsletter": {
+    "title": "Ontvang onze kwartaalinzichten",
+    "body": "Praktische engineering- en SaaS-notities — vier keer per jaar, geen spam.",
+    "placeholder": "u@bedrijf.com",
+    "submit": "Aanmelden",
+    "submitting": "Aanmelden...",
+    "successTitle": "Aangemeld",
+    "successBody": "Bedankt — controleer uw inbox voor de bevestiging.",
+    "errorTitle": "Er ging iets mis",
+    "errorBody": "Probeer het later opnieuw."
+  },
+  "Common": {
+    "learnMore": "Meer weten",
+    "getStarted": "Aan de slag",
+    "contactUs": "Neem contact op"
+  },
+  "Trust": {
+    "label": "Tools en platforms waarmee we bouwen"
+  },
+  "Capabilities": {
+    "eyebrow": "Goed gebouwd",
+    "title": "Moderne engineering, van begin tot eind",
+    "subtitle": "We bouwen op een snelle, type-veilige, edge-klare stack — uw product blijft goedkoop in beheer en eenvoudig uit te breiden.",
+    "items": {
+      "fullstack": {
+        "title": "Full-stack TypeScript",
+        "body": "Eén taal van database tot UI. Minder bugs, snellere reviews, eenvoudigere overdracht."
+      },
+      "edge": {
+        "title": "Edge-klare performance",
+        "body": "Servers dicht bij uw gebruikers. Snelle eerste paint, overal snel."
+      },
+      "i18n": {
+        "title": "Meertalig vanaf dag één",
+        "body": "Gemaakt voor een wereldwijd publiek, inclusief rechts-naar-links talen."
+      },
+      "observability": {
+        "title": "Observability standaard",
+        "body": "Fouten, performance en uptime vanaf de lancering gevolgd — geen gokken bij problemen."
+      },
+      "security": {
+        "title": "Security en privacy voorop",
+        "body": "AVG-bewust, veilig by default, gecontroleerde afhankelijkheden, principle of least privilege."
+      },
+      "ownership": {
+        "title": "U bent eigenaar van alles",
+        "body": "Source, infrastructuur en accounts — alles wordt bij oplevering aan u overgedragen. Geen vendor lock-in."
+      }
+    }
+  },
+  "Stats": {
+    "title": "Een klein team, echte resultaten",
+    "subtitle": "Cijfers die onze klanten zien in de eerste 90 dagen.",
+    "items": {
+      "response": { "value": "<24u", "label": "Reactietijd" },
+      "retention": { "value": "98%", "label": "Klantretentie" },
+      "languages": { "value": "4", "label": "Talen ondersteund" },
+      "experience": { "value": "10+", "label": "Jaar engineerings­ervaring" }
+    }
+  },
+  "Process": {
+    "eyebrow": "Hoe we werken",
+    "title": "Van eerste gesprek tot duurzame samenwerking",
+    "subtitle": "Een helder, voorspelbaar traject zodat u altijd weet waar u staat.",
+    "steps": {
+      "discover": {
+        "n": "01",
+        "title": "Verkenning",
+        "body": "We luisteren naar uw bedrijf en begrijpen het echte probleem voordat we technologie kiezen."
+      },
+      "design": {
+        "n": "02",
+        "title": "Ontwerp & scope",
+        "body": "We presenteren een duidelijk plan met tijdlijn, mijlpalen en een vaste prijs."
+      },
+      "build": {
+        "n": "03",
+        "title": "Bouwen & opleveren",
+        "body": "We bouwen in korte sprints met wekelijkse demo's. U ziet elke week voortgang."
+      },
+      "support": {
+        "n": "04",
+        "title": "Onderhoud & groei",
+        "body": "Na de lancering houden we uw product snel, veilig en in ontwikkeling — als langetermijnpartner."
+      }
+    }
+  },
+  "Testimonials": {
+    "eyebrow": "Klantverhalen",
+    "title": "Wat onze klanten zeggen",
+    "items": {
+      "anna": {
+        "quote": "Apion nam onze verouderde WordPress-site over en maakte er iets van waar we trots op zijn. De omzet is hoger, onze winkel is snel, en ze nemen écht de telefoon op.",
+        "name": "Anna van der Berg",
+        "role": "Eigenaar, Bloemwerk Amsterdam"
+      },
+      "olena": {
+        "quote": "We hadden een patiëntenportaal nodig dat in meerdere klinieken en talen werkte. Het team begreep de zorgsector en leverde een product dat onze medewerkers en patiënten ook echt gebruiken.",
+        "name": "Olena Tkachuk",
+        "role": "Operationeel manager, Kyiv Family Clinic"
+      },
+      "mark": {
+        "quote": "Ons dashboard deed er 30 seconden over om te laden. Apion heeft de datalaag herbouwd en nu opent hij in minder dan een seconde. Onze eigen mensen zijn er ook slimmer van geworden.",
+        "name": "Mark de Vries",
+        "role": "CTO, Delta Logistics"
+      }
+    }
+  },
+  "Faq": {
+    "eyebrow": "FAQ",
+    "title": "Veelgestelde vragen",
+    "items": {
+      "pricing": {
+        "q": "Hoe brengt u uw werk in rekening?",
+        "a": "De meeste opdrachten zijn een vaste prijs per fase, vóór aanvang afgesproken. Voor doorlopend werk bieden we maandretainers met heldere scope. We delen de volledige offerte vooraf — geen verrassingen op uurbasis."
+      },
+      "timeline": {
+        "q": "Hoe lang duurt een gemiddeld project?",
+        "a": "Een nieuwe marketing-website is doorgaans in 3–5 weken klaar. Custom SaaS-applicaties beginnen bij 8–12 weken voor een MVP. We delen een precieze planning na het verkenningsgesprek."
+      },
+      "languages": {
+        "q": "In welke talen werkt u?",
+        "a": "We leveren in het Engels, Nederlands, Oekraïens en Arabisch. Projectoverleg kan in elk van deze talen — kies wat voor uw team het makkelijkst is."
+      },
+      "ownership": {
+        "q": "Wie is eigenaar van de code die we betalen?",
+        "a": "U bent volledig eigenaar. We dragen de repository, infrastructuur en credentials over. Geen vendor lock-in. We werken met breed ondersteunde open-source tools zodat elke developer ermee verder kan."
+      },
+      "stack": {
+        "q": "Welke technologieën gebruikt u?",
+        "a": "We kiezen per project het beste, maar onze standaardstack is Next.js, TypeScript, Tailwind, Supabase / Postgres en Drizzle. Gehost op Vercel of een provider naar keuze."
+      },
+      "support": {
+        "q": "Biedt u ondersteuning na de lancering?",
+        "a": "Ja. De meeste klanten houden ons aan op een maandretainer voor onderhoud, performance en feature-werk. We reageren binnen één werkdag."
+      }
+    }
+  },
+  "Partners": {
+    "items": {
+      "nextjs": "Next.js",
+      "react": "React",
+      "typescript": "TypeScript",
+      "tailwind": "Tailwind CSS",
+      "supabase": "Supabase",
+      "postgres": "PostgreSQL",
+      "drizzle": "Drizzle ORM",
+      "vercel": "Vercel",
+      "stripe": "Stripe",
+      "node": "Node.js"
+    }
+  },
+  "Legal": {
+    "privacy": {
+      "title": "Privacybeleid",
+      "intro": "Dit beleid beschrijft hoe Apion informatie verzamelt, gebruikt en beschermt wanneer u deze website bezoekt of onze diensten afneemt.",
+      "sectionsTitle": "Wat we verzamelen",
+      "sections": {
+        "contact": {
+          "title": "Contactformulier",
+          "body": "Wanneer u het contactformulier invult, slaan we uw naam, e-mailadres, bedrijf (indien opgegeven) en bericht op om uw vraag te beantwoorden. We delen dit niet met derden."
+        },
+        "analytics": {
+          "title": "Analytics",
+          "body": "We gebruiken privacy­vriendelijke analytics om te begrijpen welke pagina's nuttig zijn. We volgen u niet over andere sites."
+        },
+        "rights": {
+          "title": "Uw rechten (AVG)",
+          "body": "U kunt op elk moment een kopie van uw gegevens opvragen, correctie aanvragen of uw gegevens laten verwijderen. Neem contact op via het formulier om hiervan gebruik te maken."
+        }
+      },
+      "lastUpdated": "Laatst bijgewerkt"
+    },
+    "terms": {
+      "title": "Algemene voorwaarden",
+      "intro": "Deze voorwaarden gelden voor uw gebruik van de Apion-website en geleverde diensten.",
+      "sections": {
+        "scope": {
+          "title": "Scope van diensten",
+          "body": "Projectscope, opleveringen, tijdlijn en prijs worden vóór aanvang schriftelijk vastgelegd. Werk buiten die scope wordt als aparte opdracht behandeld."
+        },
+        "ip": {
+          "title": "Intellectueel eigendom",
+          "body": "Bij volledige betaling worden alle voor uw project ontwikkelde code, ontwerpen en content aan u overgedragen. Wij behouden het recht het werk in onze portfolio te tonen."
+        },
+        "liability": {
+          "title": "Aansprakelijkheid",
+          "body": "De aansprakelijkheid van Apion is beperkt tot de voor de betreffende opdracht betaalde vergoeding. We zijn verzekerd voor beroepsaansprakelijkheid voor materieel werk."
+        }
+      },
+      "lastUpdated": "Laatst bijgewerkt"
+    }
+  },
+  "NotFound": {
+    "title": "Verdwaald in de stack",
+    "subtitle": "We konden die pagina niet vinden. Mogelijk is hij verplaatst of heeft hij nooit bestaan.",
+    "cta": "Terug naar home"
+  },
+  "Cookies": {
+    "title": "We gebruiken cookies",
+    "body": "We gebruiken essentiële cookies om deze site te laten werken en (met uw toestemming) anonieme analytics om hem te verbeteren. U kunt uw keuze altijd wijzigen.",
+    "accept": "Alle accepteren",
+    "decline": "Alleen essentiële",
+    "learnMore": "Privacybeleid"
+  }
+}

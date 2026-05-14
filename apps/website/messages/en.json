@@ -1,0 +1,374 @@
+{
+  "Meta": {
+    "title": "Apion — Technology solutions for growing businesses",
+    "description": "Apion is an Amsterdam-based technology company. We build websites, SaaS applications, and solve technical problems for small and growing businesses."
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language"
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "From Amsterdam, for the world",
+      "title": "Technology solutions for growing businesses",
+      "subtitle": "We build modern websites, deliver SaaS applications, and solve the technical problems that hold small businesses back.",
+      "ctaPrimary": "Start a project",
+      "ctaSecondary": "See our work"
+    },
+    "services": {
+      "eyebrow": "What we do",
+      "title": "Services built around your business",
+      "subtitle": "From a fast new website to a custom SaaS platform — we cover the full stack so you can focus on growth.",
+      "viewAll": "Explore all services"
+    },
+    "projects": {
+      "eyebrow": "Selected work",
+      "title": "Recent projects",
+      "subtitle": "A look at recent collaborations with our clients.",
+      "viewAll": "View all projects"
+    },
+    "cta": {
+      "title": "Let's build something together",
+      "subtitle": "Tell us about your business and the problem you want to solve. We'll respond within one business day.",
+      "button": "Get in touch"
+    }
+  },
+  "Services": {
+    "items": {
+      "web": {
+        "title": "Website design & development",
+        "description": "Modern, fast, accessible websites built with the latest tech stack. Perfect for small businesses ready to look the part."
+      },
+      "saas": {
+        "title": "Custom SaaS applications",
+        "description": "From idea to production. We design, build, and deploy SaaS products tailored to your business workflows."
+      },
+      "maintenance": {
+        "title": "Maintenance & support",
+        "description": "Keep your website running smoothly. Updates, bug fixes, monitoring, and ongoing improvements."
+      },
+      "seo": {
+        "title": "SEO & performance",
+        "description": "Rank higher and load faster. We optimize your website's structure, speed, and search engine visibility."
+      },
+      "database": {
+        "title": "Database optimization",
+        "description": "Slow queries? Bloated schema? We restructure and tune your database so your app stays fast as you grow."
+      },
+      "consulting": {
+        "title": "Technology consulting",
+        "description": "Not sure which stack to choose, or how to scale? Get clear, practical guidance from senior engineers."
+      }
+    }
+  },
+  "Projects": {
+    "industry": "Industry",
+    "year": "Year",
+    "stack": "Stack",
+    "results": "Results"
+  },
+  "About": {
+    "hero": {
+      "eyebrow": "About Apion",
+      "title": "We're a small tech team with a big toolbox",
+      "subtitle": "Based in Amsterdam, we help small and growing businesses ship better technology — without the overhead of a big agency."
+    },
+    "mission": {
+      "title": "Our mission",
+      "body": "We believe great technology shouldn't be reserved for big enterprises. We build modern, well-engineered websites and SaaS applications for the businesses that often get left behind by traditional agencies."
+    },
+    "approach": {
+      "title": "How we work",
+      "items": {
+        "listen": {
+          "title": "Listen first",
+          "body": "We start every project by understanding your business and the problem you're trying to solve — not by pitching a stack."
+        },
+        "ship": {
+          "title": "Ship fast",
+          "body": "Modern tooling and senior engineers mean we get to a working product in weeks, not quarters."
+        },
+        "stay": {
+          "title": "Stay close",
+          "body": "We don't disappear after launch. Maintenance, performance, and SEO are an ongoing partnership."
+        }
+      }
+    },
+    "hq": {
+      "title": "Based in Amsterdam, working globally",
+      "body": "Our headquarters is in Amsterdam, but we work with clients across Europe, the Middle East, and beyond. We deliver in English, Dutch, Ukrainian, and Arabic."
+    }
+  },
+  "ServicesPage": {
+    "hero": {
+      "eyebrow": "Services",
+      "title": "Everything you need to ship and grow",
+      "subtitle": "From building your first website to scaling a SaaS — we cover the work, you focus on the business."
+    }
+  },
+  "ProjectsPage": {
+    "hero": {
+      "eyebrow": "Our work",
+      "title": "Projects we've built for our clients",
+      "subtitle": "Real businesses, real outcomes. Here's what we've shipped recently."
+    },
+    "backToProjects": "Back to all projects",
+    "summary": "Summary",
+    "challenge": "The challenge",
+    "outcome": "Outcome"
+  },
+  "Contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's talk about your project",
+      "subtitle": "Tell us a bit about your business and what you'd like to build. We'll get back to you within one business day."
+    },
+    "form": {
+      "name": "Your name",
+      "namePlaceholder": "Jane Doe",
+      "email": "Email",
+      "emailPlaceholder": "you@company.com",
+      "company": "Company (optional)",
+      "companyPlaceholder": "Acme Inc.",
+      "message": "How can we help?",
+      "messagePlaceholder": "Tell us about your project, the problem you'd like to solve, or any questions.",
+      "submit": "Send message",
+      "submitting": "Sending...",
+      "successTitle": "Message sent",
+      "successBody": "Thanks — we'll get back to you within one business day.",
+      "errorTitle": "Something went wrong",
+      "errorBody": "Please try again, or email us directly."
+    },
+    "info": {
+      "officeTitle": "Headquarters",
+      "officeLine": "Amsterdam, Netherlands",
+      "emailLabel": "Email",
+      "responseLabel": "Response time",
+      "responseValue": "Within 1 business day"
+    }
+  },
+  "Footer": {
+    "tagline": "Technology solutions for growing businesses.",
+    "addressLabel": "Headquarters",
+    "addressLine1": "Amsterdam, Netherlands",
+    "navTitle": "Navigation",
+    "legalTitle": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "rights": "All rights reserved.",
+    "contactLabel": "Contact",
+    "amsterdamTime": "It's {time} now in Amsterdam",
+    "statusOperational": "All systems operational"
+  },
+  "Newsletter": {
+    "title": "Get our quarterly insights",
+    "body": "Practical engineering and SaaS notes — four times a year, no spam.",
+    "placeholder": "you@company.com",
+    "submit": "Subscribe",
+    "submitting": "Subscribing...",
+    "successTitle": "Subscribed",
+    "successBody": "Thanks — check your inbox for confirmation.",
+    "errorTitle": "Something went wrong",
+    "errorBody": "Please try again later."
+  },
+  "Common": {
+    "learnMore": "Learn more",
+    "getStarted": "Get started",
+    "contactUs": "Contact us"
+  },
+  "Trust": {
+    "label": "Tools and platforms we build with"
+  },
+  "Capabilities": {
+    "eyebrow": "Built right",
+    "title": "Modern engineering, end to end",
+    "subtitle": "We build on a fast, type-safe, edge-ready stack — so your product stays cheap to run and easy to extend.",
+    "items": {
+      "fullstack": {
+        "title": "Full-stack TypeScript",
+        "body": "One language from database to UI. Fewer bugs, faster reviews, easier handover."
+      },
+      "edge": {
+        "title": "Edge-ready performance",
+        "body": "Servers close to your users. Fast first paint, fast everywhere."
+      },
+      "i18n": {
+        "title": "Multilingual by default",
+        "body": "Built for global audiences from day one — including right-to-left languages."
+      },
+      "observability": {
+        "title": "Observability built-in",
+        "body": "Errors, performance, and uptime tracked from launch — no guessing what's wrong."
+      },
+      "security": {
+        "title": "Security & privacy first",
+        "body": "GDPR-aware, secure by default, audited dependencies, principle of least privilege."
+      },
+      "ownership": {
+        "title": "You own everything",
+        "body": "Source, infrastructure, accounts — all transferred at delivery. No vendor lock-in."
+      }
+    }
+  },
+  "Stats": {
+    "title": "A small team, real outcomes",
+    "subtitle": "Numbers our clients see in the first 90 days.",
+    "items": {
+      "response": { "value": "<24h", "label": "Response time" },
+      "retention": { "value": "98%", "label": "Client retention" },
+      "languages": { "value": "4", "label": "Languages supported" },
+      "experience": { "value": "10+", "label": "Years engineering experience" }
+    }
+  },
+  "Process": {
+    "eyebrow": "How we work",
+    "title": "From first call to ongoing partnership",
+    "subtitle": "A clear, predictable engagement so you always know where things stand.",
+    "steps": {
+      "discover": {
+        "n": "01",
+        "title": "Discovery",
+        "body": "We listen to your business and understand the real problem before talking technology."
+      },
+      "design": {
+        "n": "02",
+        "title": "Design & scope",
+        "body": "We propose a clear plan with timeline, milestones, and a fixed quote."
+      },
+      "build": {
+        "n": "03",
+        "title": "Build & ship",
+        "body": "We build in short sprints with weekly demos. You see progress every week."
+      },
+      "support": {
+        "n": "04",
+        "title": "Support & grow",
+        "body": "After launch we keep your product fast, secure, and improving — as a long-term partner."
+      }
+    }
+  },
+  "Testimonials": {
+    "eyebrow": "Client voices",
+    "title": "What our clients say",
+    "items": {
+      "anna": {
+        "quote": "Apion took our outdated WordPress site and turned it into something we're proud to share. Sales are up, our shop is fast, and they actually answer the phone.",
+        "name": "Anna van der Berg",
+        "role": "Owner, Bloemwerk Amsterdam"
+      },
+      "olena": {
+        "quote": "We needed a patient portal that worked across multiple clinics in two languages. The team understood healthcare constraints and shipped a product our staff and patients actually use.",
+        "name": "Olena Tkachuk",
+        "role": "Operations lead, Kyiv Family Clinic"
+      },
+      "mark": {
+        "quote": "Our dashboard used to take 30 seconds to load. Apion rebuilt the data layer and now it's under a second. They left our team smarter for it.",
+        "name": "Mark de Vries",
+        "role": "CTO, Delta Logistics"
+      }
+    }
+  },
+  "Faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "items": {
+      "pricing": {
+        "q": "How do you price your work?",
+        "a": "Most engagements are a fixed quote per phase, agreed before we start. For ongoing work we offer monthly retainers with clear scope. We share the full quote up front — no hourly billing surprises."
+      },
+      "timeline": {
+        "q": "How long does a typical project take?",
+        "a": "A new marketing website typically ships in 3–5 weeks. Custom SaaS applications start at 8–12 weeks for an MVP. We share a precise timeline after the discovery call."
+      },
+      "languages": {
+        "q": "Which languages do you work in?",
+        "a": "We deliver in English, Dutch, Ukrainian, and Arabic. Project meetings can run in any of these — pick whichever is easiest for your team."
+      },
+      "ownership": {
+        "q": "Who owns the code we pay for?",
+        "a": "You do, fully. We hand over the repository, infrastructure, and credentials. No vendor lock-in. We use widely-supported open-source tools so any developer can pick it up."
+      },
+      "stack": {
+        "q": "What technologies do you use?",
+        "a": "We pick the best tool per project, but the default stack is Next.js, TypeScript, Tailwind, Supabase / Postgres, and Drizzle. Hosted on Vercel or your provider of choice."
+      },
+      "support": {
+        "q": "Do you offer ongoing support after launch?",
+        "a": "Yes. Most clients keep us on a monthly retainer for maintenance, performance, and feature work. We respond within one business day."
+      }
+    }
+  },
+  "Partners": {
+    "items": {
+      "nextjs": "Next.js",
+      "react": "React",
+      "typescript": "TypeScript",
+      "tailwind": "Tailwind CSS",
+      "supabase": "Supabase",
+      "postgres": "PostgreSQL",
+      "drizzle": "Drizzle ORM",
+      "vercel": "Vercel",
+      "stripe": "Stripe",
+      "node": "Node.js"
+    }
+  },
+  "Legal": {
+    "privacy": {
+      "title": "Privacy policy",
+      "intro": "This policy describes how Apion collects, uses, and protects information when you visit this website or engage our services.",
+      "sectionsTitle": "What we collect",
+      "sections": {
+        "contact": {
+          "title": "Contact form data",
+          "body": "When you fill in the contact form, we store your name, email, company (if provided), and message in our database in order to respond to your inquiry. We do not share this with third parties."
+        },
+        "analytics": {
+          "title": "Analytics",
+          "body": "We use privacy-respecting analytics to understand which pages are useful. We do not track you across other sites."
+        },
+        "rights": {
+          "title": "Your rights (GDPR)",
+          "body": "You may request a copy of your data, ask us to correct it, or have it deleted at any time. Contact us via the form to exercise these rights."
+        }
+      },
+      "lastUpdated": "Last updated"
+    },
+    "terms": {
+      "title": "Terms of service",
+      "intro": "These terms govern your use of the Apion website and any services delivered.",
+      "sections": {
+        "scope": {
+          "title": "Scope of services",
+          "body": "Project scope, deliverables, timeline, and pricing are agreed in writing before any work begins. Anything outside that scope is treated as a separate engagement."
+        },
+        "ip": {
+          "title": "Intellectual property",
+          "body": "On full payment, all custom code, designs, and content produced for your project are transferred to you. We retain the right to reference the work in our portfolio."
+        },
+        "liability": {
+          "title": "Limitation of liability",
+          "body": "Apion's liability is limited to the fees paid for the specific engagement. We carry professional indemnity insurance for material work."
+        }
+      },
+      "lastUpdated": "Last updated"
+    }
+  },
+  "NotFound": {
+    "title": "Lost in the stack",
+    "subtitle": "We couldn't find that page. It might have moved, or it may never have existed.",
+    "cta": "Back home"
+  },
+  "Cookies": {
+    "title": "We use cookies",
+    "body": "We use essential cookies to make this site work and (with your consent) anonymous analytics to improve it. You can change your choice any time.",
+    "accept": "Accept all",
+    "decline": "Only essential",
+    "learnMore": "Privacy policy"
+  }
+}

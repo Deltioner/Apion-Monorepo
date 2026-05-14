@@ -1,0 +1,92 @@
+{
+  "Meta": {
+    "title": "Apion Shop",
+    "description": "Premium digital products and tooling from the Apion team."
+  },
+  "Nav": {
+    "home": "Home",
+    "products": "Products",
+    "cart": "Cart",
+    "orders": "My orders",
+    "signIn": "Sign in",
+    "signOut": "Sign out"
+  },
+  "Hero": {
+    "eyebrow": "By Apion",
+    "title": "Digital tools that ship.",
+    "subtitle": "Hand-built assets, templates and licenses for builders who care about details.",
+    "cta": "Browse the catalog"
+  },
+  "Home": {
+    "featured": "Featured products",
+    "viewAll": "View all"
+  },
+  "Products": {
+    "title": "All products",
+    "empty": "No products yet — check back soon.",
+    "category": "Category",
+    "allCategories": "All categories"
+  },
+  "Product": {
+    "addToCart": "Add to cart",
+    "adding": "Adding…",
+    "added": "Added",
+    "instantDelivery": "Instant digital delivery",
+    "related": "You may also like"
+  },
+  "Cart": {
+    "title": "Your cart",
+    "empty": "Your cart is empty.",
+    "browse": "Browse products",
+    "subtotal": "Subtotal",
+    "checkout": "Checkout",
+    "remove": "Remove",
+    "quantity": "Quantity"
+  },
+  "Checkout": {
+    "title": "Checkout",
+    "loading": "Preparing checkout…",
+    "pay": "Pay {amount}",
+    "paying": "Redirecting…",
+    "failed": "Payment failed",
+    "back": "Back to cart",
+    "total": "Total",
+    "emptyCart": "Your cart is empty.",
+    "browse": "Browse products"
+  },
+  "Confirm": {
+    "title": "Payment successful",
+    "subtitle": "We've emailed your receipt. Your downloads are in your account.",
+    "viewOrders": "View my orders",
+    "continue": "Continue shopping"
+  },
+  "Orders": {
+    "title": "My orders",
+    "empty": "You haven't placed any orders yet.",
+    "orderNumber": "Order",
+    "status": "Status",
+    "total": "Total",
+    "date": "Date"
+  },
+  "Auth": {
+    "signInTitle": "Sign in",
+    "signInSubtitle": "Use your email to receive a magic link.",
+    "signUpTitle": "Create your account",
+    "signUpSubtitle": "We'll email you a magic link. No password needed.",
+    "name": "Name",
+    "email": "Email",
+    "send": "Send magic link",
+    "signUp": "Create account",
+    "sent": "Check your email — we sent you a sign-in link.",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "signInLink": "Sign in",
+    "signUpLink": "Sign up"
+  },
+  "Footer": {
+    "tagline": "Crafted by the Apion team.",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "contact": "Contact"
+  }
+}

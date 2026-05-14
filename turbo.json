@@ -1,6 +1,18 @@
 {
   "$schema": "https://turborepo.dev/schema.json",
   "ui": "tui",
+  "globalEnv": [
+    "DATABASE_URL",
+    "NEXT_PUBLIC_SITE_URL",
+    "BETTER_AUTH_SECRET",
+    "BETTER_AUTH_URL",
+    "MOLLIE_API_KEY",
+    "RESEND_API_KEY",
+    "EMAIL_FROM",
+    "NODE_ENV",
+    "VERCEL_URL",
+    "PORT"
+  ],
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
