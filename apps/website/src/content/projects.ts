@@ -6,7 +6,6 @@ export type Project = {
   accentFrom: string;
   accentTo: string;
   liveUrl?: string;
-  linkDisabled?: boolean;
   image?: string;
 };
 
@@ -42,7 +41,6 @@ export const projects: Project[] = [
     stack: ["Next.js", "Tailwind CSS", "Sanity CMS", "Resend"],
     accentFrom: "#EC4899",
     accentTo: "#F97316",
-    linkDisabled: true,
     image: unsplash("photo-1623334044303-241021148842"),
   },
 ];
