@@ -6,6 +6,7 @@ export type Project = {
   accentFrom: string;
   accentTo: string;
   liveUrl?: string;
+  linkDisabled?: boolean;
   image?: string;
 };
 
@@ -35,13 +36,13 @@ export const projects: Project[] = [
     image: unsplash("photo-1563013544-824ae1b704d3"),
   },
   {
-    slug: "polina-pastry",
-    client: "Polina Pastry",
+    slug: "pastry",
+    client: "Pastry",
     year: 2024,
     stack: ["Next.js", "Tailwind CSS", "Sanity CMS", "Resend"],
     accentFrom: "#EC4899",
     accentTo: "#F97316",
-    liveUrl: "https://polina-pastry.vercel.app/",
+    linkDisabled: true,
     image: unsplash("photo-1623334044303-241021148842"),
   },
 ];
