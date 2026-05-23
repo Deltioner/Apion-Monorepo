@@ -11,7 +11,8 @@
     "contact": "Contact",
     "openMenu": "Menu openen",
     "closeMenu": "Menu sluiten",
-    "language": "Taal"
+    "language": "Taal",
+    "toggleTheme": "Thema wisselen"
   },
   "Home": {
     "hero": {
@@ -45,6 +46,14 @@
         "title": "Webdesign & ontwikkeling",
         "description": "Moderne, snelle en toegankelijke websites, gebouwd met de nieuwste technologie. Perfect voor kleine bedrijven die professioneel willen ogen."
       },
+      "android": {
+        "title": "Android & mobiele applicaties",
+        "description": "Native Android-apps en cross-platform mobiele ervaringen. Van snelle MVP's tot productieklare apps met offline-ondersteuning, pushmeldingen en levering via Play Store."
+      },
+      "ai": {
+        "title": "AI-integratie voor uw bedrijf",
+        "description": "Breng AI naar uw operatie — van chatbots en contentgeneratie tot maatwerk GPT-integraties en agentische automatisering. Wij helpen u de juiste tools te kiezen en meetbare resultaten te leveren."
+      },
       "saas": {
         "title": "Op maat gemaakte SaaS-applicaties",
         "description": "Van idee tot productie. Wij ontwerpen, bouwen en lanceren SaaS-producten afgestemd op uw bedrijfsprocessen."
@@ -71,7 +80,39 @@
     "industry": "Branche",
     "year": "Jaar",
     "stack": "Stack",
-    "results": "Resultaten"
+    "results": "Resultaten",
+    "cases": {
+      "alawy-portfolio": {
+        "industry": "Personal branding / Portfolio",
+        "summary": "Een minimalistische, geanimeerde portfoliosite voor een multidisciplinaire ontwikkelaar.",
+        "description": "We ontwierpen en bouwden een rustige, type-gedreven portfolio met scroll-gekoppelde animaties, donker/licht-thema en een eigen case-study-layout. Gedeployed op Vercel met edge-gerenderde metadata voor een snelle eerste rendering en mooie social previews.",
+        "results": [
+          "Sub-seconde LCP op mobiel",
+          "100/100 Lighthouse-toegankelijkheidsscore",
+          "3x toename in inkomende aanvragen in de eerste maand"
+        ]
+      },
+      "digital-marketplace": {
+        "industry": "E-commerce / Digitale producten",
+        "summary": "Storefront voor digitale producten met accounts, persistente winkelwagen en directe levering.",
+        "description": "Een modern e-commerceplatform voor het verkopen van digitale downloads. Inclusief gebruikersauthenticatie, productcatalogus, persistente winkelwagen, gestroomlijnde checkout en automatische levering van assets bij geslaagde betaling. Mobile-first met conversiegerichte UX.",
+        "results": [
+          "+45% conversie t.o.v. vorige Shopify-storefront",
+          "Gemiddelde checkout voltooid in minder dan 30 seconden",
+          "Nul mislukte betalingen in de eerste 1.000 bestellingen"
+        ]
+      },
+      "polina-pastry": {
+        "industry": "Eten & drinken / Artisanale bakkerij",
+        "summary": "Storytelling-gedreven storefront en bestelproces voor een Oekraïens-Nederlandse artisanale bakkerij.",
+        "description": "Polina bracht haar Oekraïense bakkunst naar Kampen, Nederland. We bouwden voor haar merk een warme, verhalende storefront met seizoensgebonden menu's, een bestelflow voor maattaarten en een speciale pagina ter ondersteuning van Oekraïne. Dagverse voorraad, tweetalige content en e-mail-gestuurde maatwerkbestellingen van begin tot eind.",
+        "results": [
+          "Te zien in twee lokale Kampense voedingspublicaties",
+          "+120% direct bestelvolume in de eerste 90 dagen",
+          "Gemiddelde orderwaarde 2,3x hoger dan eerdere kanalen"
+        ]
+      }
+    }
   },
   "About": {
     "hero": {
@@ -102,7 +143,7 @@
     },
     "hq": {
       "title": "Gevestigd in Amsterdam, wereldwijd actief",
-      "body": "Ons hoofdkantoor is in Amsterdam, maar we werken samen met klanten in heel Europa, het Midden-Oosten en daarbuiten. We leveren in het Engels, Nederlands, Oekraïens en Arabisch."
+      "body": "Ons hoofdkantoor is in Amsterdam, maar we werken samen met klanten in heel Europa, het Midden-Oosten en daarbuiten. We leveren in het Engels, Nederlands en Arabisch."
     }
   },
   "ServicesPage": {
@@ -121,7 +162,8 @@
     "backToProjects": "Terug naar alle projecten",
     "summary": "Samenvatting",
     "challenge": "De uitdaging",
-    "outcome": "Resultaat"
+    "outcome": "Resultaat",
+    "viewLive": "Bekijk live site"
   },
   "Contact": {
     "hero": {
@@ -175,15 +217,16 @@
     "successTitle": "Aangemeld",
     "successBody": "Bedankt — controleer uw inbox voor de bevestiging.",
     "errorTitle": "Er ging iets mis",
-    "errorBody": "Probeer het later opnieuw."
+    "errorBody": "Probeer het later opnieuw.",
+    "invalidEmail": "Voer een geldig e-mailadres in"
   },
   "Common": {
     "learnMore": "Meer weten",
     "getStarted": "Aan de slag",
     "contactUs": "Neem contact op"
   },
-  "Trust": {
-    "label": "Tools en platforms waarmee we bouwen"
+  "TechStack": {
+    "label": "Technologieën waarmee we bouwen"
   },
   "Capabilities": {
     "eyebrow": "Goed gebouwd",
@@ -222,7 +265,7 @@
     "items": {
       "response": { "value": "<24u", "label": "Reactietijd" },
       "retention": { "value": "98%", "label": "Klantretentie" },
-      "languages": { "value": "4", "label": "Talen ondersteund" },
+      "languages": { "value": "3", "label": "Talen ondersteund" },
       "experience": { "value": "10+", "label": "Jaar engineerings­ervaring" }
     }
   },
@@ -253,27 +296,6 @@
       }
     }
   },
-  "Testimonials": {
-    "eyebrow": "Klantverhalen",
-    "title": "Wat onze klanten zeggen",
-    "items": {
-      "anna": {
-        "quote": "Apion nam onze verouderde WordPress-site over en maakte er iets van waar we trots op zijn. De omzet is hoger, onze winkel is snel, en ze nemen écht de telefoon op.",
-        "name": "Anna van der Berg",
-        "role": "Eigenaar, Bloemwerk Amsterdam"
-      },
-      "olena": {
-        "quote": "We hadden een patiëntenportaal nodig dat in meerdere klinieken en talen werkte. Het team begreep de zorgsector en leverde een product dat onze medewerkers en patiënten ook echt gebruiken.",
-        "name": "Olena Tkachuk",
-        "role": "Operationeel manager, Kyiv Family Clinic"
-      },
-      "mark": {
-        "quote": "Ons dashboard deed er 30 seconden over om te laden. Apion heeft de datalaag herbouwd en nu opent hij in minder dan een seconde. Onze eigen mensen zijn er ook slimmer van geworden.",
-        "name": "Mark de Vries",
-        "role": "CTO, Delta Logistics"
-      }
-    }
-  },
   "Faq": {
     "eyebrow": "FAQ",
     "title": "Veelgestelde vragen",
@@ -288,7 +310,7 @@
       },
       "languages": {
         "q": "In welke talen werkt u?",
-        "a": "We leveren in het Engels, Nederlands, Oekraïens en Arabisch. Projectoverleg kan in elk van deze talen — kies wat voor uw team het makkelijkst is."
+        "a": "We leveren in het Engels, Nederlands en Arabisch. Projectoverleg kan in elk van deze talen — kies wat voor uw team het makkelijkst is."
       },
       "ownership": {
         "q": "Wie is eigenaar van de code die we betalen?",
@@ -302,20 +324,6 @@
         "q": "Biedt u ondersteuning na de lancering?",
         "a": "Ja. De meeste klanten houden ons aan op een maandretainer voor onderhoud, performance en feature-werk. We reageren binnen één werkdag."
       }
-    }
-  },
-  "Partners": {
-    "items": {
-      "nextjs": "Next.js",
-      "react": "React",
-      "typescript": "TypeScript",
-      "tailwind": "Tailwind CSS",
-      "supabase": "Supabase",
-      "postgres": "PostgreSQL",
-      "drizzle": "Drizzle ORM",
-      "vercel": "Vercel",
-      "stripe": "Stripe",
-      "node": "Node.js"
     }
   },
   "Legal": {

@@ -42,7 +42,7 @@ export function NewsletterSignup() {
     e.preventDefault();
     const parsed = emailSchema.safeParse(email);
     if (!parsed.success) {
-      setError("Please enter a valid email");
+      setError(t("invalidEmail"));
       return;
     }
     setError(null);

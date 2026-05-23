@@ -37,8 +37,10 @@ export function ServicesPreview() {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.4, delay: i * 0.05 }}
             >
-              <SpotlightCard className="bg-background hover:border-primary/30 group/card relative flex h-full flex-col gap-3 rounded-xl border p-6 transition-all duration-300 hover:shadow-lg">
-                <div className="bg-primary/10 text-primary inline-flex size-10 items-center justify-center rounded-lg transition-transform duration-300 group-hover/card:scale-110">
+              <SpotlightCard className="bg-background hover:border-foreground/20 group/card relative flex h-full flex-col gap-3 rounded-xl border p-6 transition-all duration-300 hover:shadow-lg">
+                <div
+                  className={`${service.bg} ${service.text} inline-flex size-10 items-center justify-center rounded-lg transition-transform duration-300 group-hover/card:scale-110`}
+                >
                   <Icon className="size-5" />
                 </div>
                 <h3 className="text-lg font-semibold">

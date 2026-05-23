@@ -55,10 +55,10 @@ export default async function ContactPage({
                 {t("info.emailLabel")}
               </div>
               <a
-                href="mailto:hello@apion.tech"
+                href="mailto:apion2005@gmail.com"
                 className="mt-1 block text-sm font-medium hover:underline"
               >
-                hello@apion.tech
+                apion2005@gmail.com
               </a>
             </div>
 

@@ -3,4 +3,4 @@ export const SITE_URL =
 
 export const SITE_NAME = "Apion";
 export const SITE_LOCATION = "Amsterdam, Netherlands";
-export const SITE_EMAIL = "hello@apion.tech";
+export const SITE_EMAIL = "apion2005@gmail.com";

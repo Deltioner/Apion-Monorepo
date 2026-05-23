@@ -1,5 +1,8 @@
 "use client";
 
+import Image from "next/image";
+import { useTranslations } from "next-intl";
+
 import { Badge } from "@repo/ui/components/badge";
 
 import { Link } from "@/i18n/navigation";
@@ -13,6 +16,8 @@ export function ProjectCard({
   project: Project;
   className?: string;
 }) {
+  const t = useTranslations(`Projects.cases.${project.slug}`);
+
   return (
     <TiltCard className={className}>
       <Link
@@ -26,18 +31,28 @@ export function ProjectCard({
             background: `linear-gradient(135deg, ${project.accentFrom}, ${project.accentTo})`,
           }}
         >
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(255,255,255,0.25),_transparent_60%)]" />
+          {project.image ? (
+            <Image
+              src={project.image}
+              alt=""
+              fill
+              sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+              className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
+              unoptimized
+            />
+          ) : null}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/15 to-transparent" />
           <div className="absolute bottom-3 left-4 text-xs font-medium text-white/90">
             {project.year}
           </div>
         </div>
         <div className="p-5">
           <Badge variant="secondary" className="mb-2 text-xs">
-            {project.industry}
+            {t("industry")}
           </Badge>
           <h3 className="text-lg font-semibold">{project.client}</h3>
           <p className="text-muted-foreground mt-1 line-clamp-3 text-sm">
-            {project.summary}
+            {t("summary")}
           </p>
         </div>
       </Link>

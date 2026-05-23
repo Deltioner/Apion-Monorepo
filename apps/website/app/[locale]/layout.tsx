@@ -10,6 +10,7 @@ import { Providers } from "@/components/providers";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { CookieConsent } from "@/components/cookie-consent";
+import { Grain } from "@/components/grain";
 import { ScrollProgress } from "@/components/scroll-progress";
 import { isRtl, routing, type Locale } from "@/i18n/routing";
 import { SITE_URL, SITE_NAME, SITE_EMAIL } from "@/lib/site";
@@ -93,6 +94,7 @@ export default async function LocaleLayout({
         />
         <NextIntlClientProvider>
           <Providers>
+            <Grain />
             <ScrollProgress />
             <Header />
             <main className="flex-1">{children}</main>

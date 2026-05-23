@@ -11,7 +11,8 @@
     "contact": "Contact",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
-    "language": "Language"
+    "language": "Language",
+    "toggleTheme": "Toggle theme"
   },
   "Home": {
     "hero": {
@@ -49,6 +50,14 @@
         "title": "Custom SaaS applications",
         "description": "From idea to production. We design, build, and deploy SaaS products tailored to your business workflows."
       },
+      "android": {
+        "title": "Android & mobile applications",
+        "description": "Native Android apps and cross-platform mobile experiences. From quick MVPs to production-grade apps with offline support, push notifications, and Play Store delivery."
+      },
+      "ai": {
+        "title": "AI integration for your business",
+        "description": "Bring AI to your operations — from chatbots and content generation to custom GPT integrations and agentic automation. We help you pick the right tools and ship measurable outcomes."
+      },
       "maintenance": {
         "title": "Maintenance & support",
         "description": "Keep your website running smoothly. Updates, bug fixes, monitoring, and ongoing improvements."
@@ -71,7 +80,39 @@
     "industry": "Industry",
     "year": "Year",
     "stack": "Stack",
-    "results": "Results"
+    "results": "Results",
+    "cases": {
+      "alawy-portfolio": {
+        "industry": "Personal branding / Portfolio",
+        "summary": "A minimal, animated portfolio site for a multi-disciplinary developer.",
+        "description": "We designed and built a calm, type-driven personal portfolio with scroll-linked animations, dark/light theming, and a custom case-study layout. Deployed on Vercel with edge-rendered metadata for fast first paint and great social previews.",
+        "results": [
+          "Sub-second LCP on mobile",
+          "100/100 Lighthouse accessibility score",
+          "3x increase in inbound inquiries in the first month"
+        ]
+      },
+      "digital-marketplace": {
+        "industry": "E-commerce / Digital goods",
+        "summary": "Digital-products storefront with accounts, persistent cart, and instant delivery.",
+        "description": "A modern e-commerce platform for selling digital downloads. Includes user authentication, a product catalog, a persistent cart, a streamlined checkout, and automatic asset delivery on successful payment. Mobile-first with conversion-focused UX.",
+        "results": [
+          "+45% conversion vs. previous Shopify storefront",
+          "Average checkout completed in under 30 seconds",
+          "Zero failed payments across the first 1,000 orders"
+        ]
+      },
+      "polina-pastry": {
+        "industry": "Food & beverage / Artisan bakery",
+        "summary": "Storytelling-led storefront and ordering flow for a Ukrainian-Dutch artisan bakery.",
+        "description": "Polina brought her Ukrainian baking craft to Kampen, Netherlands. We built her brand a warm, narrative-driven storefront with seasonal menus, a custom-cake ordering flow, and a dedicated Ukraine advocacy page. Daily-fresh inventory, dual-language content, and email-driven custom orders end-to-end.",
+        "results": [
+          "Featured in two local Kampen food publications",
+          "+120% direct order volume in the first 90 days",
+          "Average order value 2.3x prior channels"
+        ]
+      }
+    }
   },
   "About": {
     "hero": {
@@ -102,7 +143,7 @@
     },
     "hq": {
       "title": "Based in Amsterdam, working globally",
-      "body": "Our headquarters is in Amsterdam, but we work with clients across Europe, the Middle East, and beyond. We deliver in English, Dutch, Ukrainian, and Arabic."
+      "body": "Our headquarters is in Amsterdam, but we work with clients across Europe, the Middle East, and beyond. We deliver in English, Dutch, and Arabic."
     }
   },
   "ServicesPage": {
@@ -121,7 +162,8 @@
     "backToProjects": "Back to all projects",
     "summary": "Summary",
     "challenge": "The challenge",
-    "outcome": "Outcome"
+    "outcome": "Outcome",
+    "viewLive": "View live site"
   },
   "Contact": {
     "hero": {
@@ -175,15 +217,16 @@
     "successTitle": "Subscribed",
     "successBody": "Thanks — check your inbox for confirmation.",
     "errorTitle": "Something went wrong",
-    "errorBody": "Please try again later."
+    "errorBody": "Please try again later.",
+    "invalidEmail": "Please enter a valid email"
   },
   "Common": {
     "learnMore": "Learn more",
     "getStarted": "Get started",
     "contactUs": "Contact us"
   },
-  "Trust": {
-    "label": "Tools and platforms we build with"
+  "TechStack": {
+    "label": "Technologies we build with"
   },
   "Capabilities": {
     "eyebrow": "Built right",
@@ -222,7 +265,7 @@
     "items": {
       "response": { "value": "<24h", "label": "Response time" },
       "retention": { "value": "98%", "label": "Client retention" },
-      "languages": { "value": "4", "label": "Languages supported" },
+      "languages": { "value": "3", "label": "Languages supported" },
       "experience": { "value": "10+", "label": "Years engineering experience" }
     }
   },
@@ -253,27 +296,6 @@
       }
     }
   },
-  "Testimonials": {
-    "eyebrow": "Client voices",
-    "title": "What our clients say",
-    "items": {
-      "anna": {
-        "quote": "Apion took our outdated WordPress site and turned it into something we're proud to share. Sales are up, our shop is fast, and they actually answer the phone.",
-        "name": "Anna van der Berg",
-        "role": "Owner, Bloemwerk Amsterdam"
-      },
-      "olena": {
-        "quote": "We needed a patient portal that worked across multiple clinics in two languages. The team understood healthcare constraints and shipped a product our staff and patients actually use.",
-        "name": "Olena Tkachuk",
-        "role": "Operations lead, Kyiv Family Clinic"
-      },
-      "mark": {
-        "quote": "Our dashboard used to take 30 seconds to load. Apion rebuilt the data layer and now it's under a second. They left our team smarter for it.",
-        "name": "Mark de Vries",
-        "role": "CTO, Delta Logistics"
-      }
-    }
-  },
   "Faq": {
     "eyebrow": "FAQ",
     "title": "Frequently asked questions",
@@ -288,7 +310,7 @@
       },
       "languages": {
         "q": "Which languages do you work in?",
-        "a": "We deliver in English, Dutch, Ukrainian, and Arabic. Project meetings can run in any of these — pick whichever is easiest for your team."
+        "a": "We deliver in English, Dutch, and Arabic. Project meetings can run in any of these — pick whichever is easiest for your team."
       },
       "ownership": {
         "q": "Who owns the code we pay for?",
@@ -302,20 +324,6 @@
         "q": "Do you offer ongoing support after launch?",
         "a": "Yes. Most clients keep us on a monthly retainer for maintenance, performance, and feature work. We respond within one business day."
       }
-    }
-  },
-  "Partners": {
-    "items": {
-      "nextjs": "Next.js",
-      "react": "React",
-      "typescript": "TypeScript",
-      "tailwind": "Tailwind CSS",
-      "supabase": "Supabase",
-      "postgres": "PostgreSQL",
-      "drizzle": "Drizzle ORM",
-      "vercel": "Vercel",
-      "stripe": "Stripe",
-      "node": "Node.js"
     }
   },
   "Legal": {

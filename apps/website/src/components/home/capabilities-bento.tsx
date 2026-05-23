@@ -28,13 +28,62 @@ type ItemKey =
   | "security"
   | "ownership";
 
-const ITEMS: { key: ItemKey; icon: LucideIcon; span: string }[] = [
-  { key: "fullstack", icon: Code2, span: "md:col-span-2 md:row-span-2" },
-  { key: "edge", icon: Zap, span: "" },
-  { key: "i18n", icon: Globe, span: "" },
-  { key: "observability", icon: Activity, span: "md:col-span-2" },
-  { key: "security", icon: Shield, span: "" },
-  { key: "ownership", icon: KeyRound, span: "" },
+const ITEMS: {
+  key: ItemKey;
+  icon: LucideIcon;
+  span: string;
+  bg: string;
+  text: string;
+  blob: string;
+}[] = [
+  {
+    key: "fullstack",
+    icon: Code2,
+    span: "md:col-span-2 md:row-span-2",
+    bg: "bg-blue-500/10",
+    text: "text-blue-500",
+    blob: "bg-blue-500/15",
+  },
+  {
+    key: "edge",
+    icon: Zap,
+    span: "",
+    bg: "bg-yellow-500/10",
+    text: "text-yellow-500",
+    blob: "bg-yellow-500/15",
+  },
+  {
+    key: "i18n",
+    icon: Globe,
+    span: "",
+    bg: "bg-emerald-500/10",
+    text: "text-emerald-500",
+    blob: "bg-emerald-500/15",
+  },
+  {
+    key: "observability",
+    icon: Activity,
+    span: "md:col-span-2",
+    bg: "bg-orange-500/10",
+    text: "text-orange-500",
+    blob: "bg-orange-500/15",
+  },
+  {
+    key: "security",
+    icon: Shield,
+    span: "",
+    bg: "bg-rose-500/10",
+    text: "text-rose-500",
+    blob: "bg-rose-500/15",
+  },
+  {
+    key: "ownership",
+    icon: KeyRound,
+    span: "",
+    bg: "bg-violet-500/10",
+    text: "text-violet-500",
+    blob: "bg-violet-500/15",
+  },
 ];
 
 export function CapabilitiesBento() {
@@ -49,7 +98,7 @@ export function CapabilitiesBento() {
       </div>
 
       <div className="mt-12 grid auto-rows-[12rem] grid-cols-1 gap-4 md:grid-cols-4">
-        {ITEMS.map(({ key, icon: Icon, span }, i) => (
+        {ITEMS.map(({ key, icon: Icon, span, bg, text, blob }, i) => (
           <motion.div
             key={key}
             initial={{ opacity: 0, y: 12 }}
@@ -58,14 +107,16 @@ export function CapabilitiesBento() {
             transition={{ duration: 0.4, delay: i * 0.04 }}
             className={span}
           >
-            <SpotlightCard className="bg-background hover:border-primary/30 group relative h-full overflow-hidden rounded-xl border p-6 transition-colors">
-              {/* Decorative gradient blob in corner */}
+            <SpotlightCard className="bg-background hover:border-foreground/20 group relative h-full overflow-hidden rounded-xl border p-6 transition-colors">
+              {/* Decorative gradient blob in corner — colored per capability */}
               <div
                 aria-hidden
-                className="bg-primary/10 absolute -right-12 -top-12 size-32 rounded-full blur-2xl transition-opacity duration-300 group-hover:opacity-100 opacity-60"
+                className={`${blob} absolute -right-12 -top-12 size-32 rounded-full blur-2xl opacity-60 transition-opacity duration-300 group-hover:opacity-100`}
               />
               <div className="relative flex h-full flex-col">
-                <div className="bg-primary/10 text-primary inline-flex size-10 items-center justify-center rounded-lg">
+                <div
+                  className={`${bg} ${text} inline-flex size-10 items-center justify-center rounded-lg`}
+                >
                   <Icon className="size-5" />
                 </div>
                 <h3 className="mt-5 text-base font-semibold">
